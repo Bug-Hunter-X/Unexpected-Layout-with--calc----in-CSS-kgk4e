@@ -1,0 +1,15 @@
+/* bugSolution.css */
+.container {
+  display: flex;
+  width: 500px; /* Explicit width for the container */
+}
+
+.item {
+  flex: 1;
+  background-color: lightblue;
+  padding: 10px;
+  margin-right: 10px; /* Added for visual separation */
+  width: calc(100% - 20px); /* Correct calculation for margin*/
+}
+
+/*Note the addition of explicit width to the container to ensure the calculation works as expected */
